@@ -18,7 +18,7 @@ export default class Card extends Component {
             <div className='card' >
                 <div className={this.props.flipped ? "flipped" : ""}>
                     <img className='front' src={this.props.card.src} alt="card front" />
-                    <img className='back' src='/src/assets/cover.png' alt="card back"
+                    <img className='back' src='./assets/cover.png' alt="card back"
                         onClick={this.handleClick} />
                 </div>
             </div>
