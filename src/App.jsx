@@ -1,4 +1,4 @@
-import './App.css'
+
 import { useState, useEffect } from 'react'
 import Card from './components'
 import helmet from "./assets/helmet-1.png"
