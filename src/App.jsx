@@ -1,13 +1,20 @@
 import './App.css'
 import { useState, useEffect } from 'react'
 import Card from './components'
+import helmet from "./assets/helmet-1.png"
+import potion from  "./assets/potion-1.png"
+import sword from "./assets/sword-1.png"
+import shield from "./assets/shield-1.png"
+import ring from "./assets/ring-1.png"
+import scroll from "./assets/scroll-1.png"
+
 const cardImages = [
-  { "src": "./src/helmet-1.png", matched: false },
-  { "src": "./src/potion-1.png", matched: false },
-  { "src": "./src/sword-1.png", matched: false },
-  { "src": "./src/shield-1.png", matched: false },
-  { "src": "./src/ring-1.png", matched: false },
-  { "src": "./src/scroll-1.png", matched: false },
+  { "src": helmet, matched: false },
+  { "src": potion, matched: false },
+  { "src": sword, matched: false },
+  { "src": shield, matched: false },
+  { "src": ring, matched: false },
+  { "src": scroll, matched: false },
   
 ]
 
